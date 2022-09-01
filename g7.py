@@ -31,7 +31,7 @@ def show_intro_screen():
     screen.draw.text('Press space to start', center=(WIDTH//2, HEIGHT//2+50),color='red')
 
 def show_game_screen():
-    screen.fill('black')
+    screen.fill('white')
     screen.draw.text(f'SCORE: {score}', (20,20), color='red')
     p.draw()
     e.draw()
@@ -51,9 +51,6 @@ def update():
         player_controls()
         check_score()
     
-
-
-
 def enemy_movement():
     global is_game_over
     if p.x > e.x:
@@ -90,6 +87,5 @@ def player_controls():
         p.angle = -10
     else:
         p.angle = 0
-
 
 pgzrun.go()
