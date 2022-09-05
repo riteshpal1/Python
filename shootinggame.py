@@ -73,7 +73,7 @@ def move_player():
     player.x = WIDTH
   if player.x < 0:
     player.x = 0
-
+  
 
 def move_enemies():
   global score

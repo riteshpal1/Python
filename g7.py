@@ -51,6 +51,9 @@ def update():
         player_controls()
         check_score()
     
+
+
+    
 def enemy_movement():
     global is_game_over
     if p.x > e.x:
@@ -87,5 +90,6 @@ def player_controls():
         p.angle = -10
     else:
         p.angle = 0
+
 
 pgzrun.go()
