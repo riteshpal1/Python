@@ -1,23 +1,24 @@
 import pgzrun
 
-WIDTH = 1000
+WIDTH = 700
 HEIGHT = 500
 
 music.play('bgmusic')
 # actor
-p = Actor('aman', (50, 200))
+p = Actor('char1', (50, 200))
 speed = 3 # speed of movement
+
 def draw():
-  screen.fill('green')
+  screen.fill('black')
   p.draw()
- 
+
 def update():
   player_controls()
 
 def player_controls():
   if keyboard.UP and not p.top < 0:
     p.y += -speed
-    p.angle = 0
+    p.angle = 0 
   elif keyboard.DOWN and not p.bottom > HEIGHT:
     p.y += speed
     p.angle = 0

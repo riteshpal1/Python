@@ -1,9 +1,7 @@
 #inherritance
-
 import pgzrun
 WIDTH = 500
 HEIGHT = 500
-
 
 class Player(Actor):
   vx = 3
@@ -22,10 +20,10 @@ class Player(Actor):
 class Enemy(Actor):
   pass
 
-print(Player,Enemy)
+#print(Player,Enemy)
 
 # game code starts here
-p = Player('aman', pos = (WIDTH//2, HEIGHT//2))
+p = Player('char1', pos = (WIDTH//2, HEIGHT//2))
 
 def draw():
   screen.clear()
@@ -34,4 +32,4 @@ def draw():
 def update():
   p.control()
 
-pgzrun.go
+pgzrun.go()

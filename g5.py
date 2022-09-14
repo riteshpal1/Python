@@ -5,8 +5,8 @@ WIDTH = 700
 HEIGHT = 500
 
 # actor
-p = Actor('aman', (50, 200))
-c = Actor('fish', (randint(0, WIDTH), randint(0, HEIGHT) ))
+p = Actor('char1', (50, 200))
+c = Actor('item1', (randint(0, WIDTH), randint(0, HEIGHT) ))
 #e = Actor('fish1', (randint(500, WIDTH), randint(500, HEIGHT) ))
 
 

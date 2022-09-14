@@ -4,9 +4,9 @@ from random import randint
 WIDTH = 800
 HEIGHT = 500
 
-p = Actor('monster', pos= (WIDTH//2, HEIGHT//2))
-e = Actor('spider', pos=(60,60))
-c = Actor('aman')
+p = Actor('char1', pos= (WIDTH//2, HEIGHT//2))
+e = Actor('char3', pos=(60,60))
+c = Actor('gold_1')
 c.x = randint(100, WIDTH-100) # c pos on x axis
 c.y = randint(100, HEIGHT-100) # c pos on x axis
 

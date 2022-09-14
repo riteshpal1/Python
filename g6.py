@@ -5,9 +5,9 @@ WIDTH = 700
 HEIGHT = 500
 
 # our variables
-p = Actor('aman', (50, 200))
-c = Actor('fish', (randint(0, WIDTH), randint(0, HEIGHT)))
-e = Actor('fish1', (500,300))
+p = Actor('char1', (50, 200))
+c = Actor('item1', (randint(0, WIDTH), randint(0, HEIGHT)))
+e = Actor('char2', (500,300))
 speed = 3 # speed of movement
 espeed = 1
 
